@@ -1,0 +1,15 @@
+[package]
+name = "Basic_multiplayer_tik-tak-toe"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0x422d832a7a3eca12ec3b00b1e5adf51698dc7f479b9bb1a09b9341934789c7f8"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "testnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
